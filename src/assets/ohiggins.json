@@ -1,0 +1,34 @@
+{
+    "Chile": {
+      "Regiones": [
+        {
+          "Nombre": "Región del Libertador General Bernardo O'Higgins",
+          "Comunas": [
+            "Rancagua",
+            "Codegua",
+            "Coinco",
+            "Coltauco",
+            "Doñihue",
+            "Graneros",
+            "Las Cabras",
+            "Machalí",
+            "Malloa",
+            "Mostazal",
+            "Olivar",
+            "Peumo",
+            "Pichidegua",
+            "Quinta de Tilcoco",
+            "Rengo",
+            "Requínoa",
+            "San Vicente",
+            "La Estrella",
+            "Litueche",
+            "Marchihue",
+            "Navidad",
+            "Paredones"
+          ]
+        }
+      ]
+    }
+  }
+  

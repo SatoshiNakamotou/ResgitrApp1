@@ -1,0 +1,24 @@
+{
+    "Chile": {
+      "Regiones": [
+        {
+          "Nombre": "Región de Los Ríos",
+          "Comunas": [
+            "Valdivia",
+            "Corral",
+            "Lanco",
+            "Los Lagos",
+            "Máfil",
+            "Mariquina",
+            "Paillaco",
+            "Panguipulli",
+            "La Unión",
+            "Futrono",
+            "Lago Ranco",
+            "Río Bueno"
+          ]
+        }
+      ]
+    }
+  }
+  

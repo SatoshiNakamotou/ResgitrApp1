@@ -1,0 +1,80 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Registro de Usuario</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-item>
+    <ion-label position="stacked">Usuario</ion-label>
+    <ion-input type="text" [(ngModel)]="usuario" placeholder="Mínimo 5 caracteres" maxlength="25" minlength="5"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Nombre</ion-label>
+    <ion-input type="text" [(ngModel)]="nombre" maxlength="20"></ion-input>
+    <!-- Agrega aquí el mensaje de requerimiento para el nombre -->
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Apellido</ion-label>
+    <ion-input type="text" [(ngModel)]="apellido" maxlength="20"></ion-input>
+    <!-- Agrega aquí el mensaje de requerimiento para el apellido -->
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">RUT</ion-label>
+    <ion-input type="text" [(ngModel)]="rut" placeholder="Formato rut 12345678K" pattern="^[0-9A-Za-z]{1,8}$" inputmode="numeric" maxlength="9"></ion-input>
+    <ion-text color="medium">Formato ejemplo: 12345678K</ion-text>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Correo</ion-label>
+    <ion-input type="text" [(ngModel)]="correo" placeholder="Ingrese correo electrónico" maxlength="200"></ion-input>
+    <!-- Agrega aquí el mensaje de requerimiento para el correo -->
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Carrera</ion-label>
+    <ion-input type="text" [(ngModel)]="carrera" placeholder="Ingrese su carrera" maxlength="50"></ion-input>
+    <!-- Agrega aquí el mensaje de requerimiento para la carrera -->
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Teléfono</ion-label>
+    <ion-input type="text" [(ngModel)]="telefono" placeholder="9 dígitos : Ejemplo 955445522" pattern="[0-9]*" maxlength="9"></ion-input>
+    <!-- Agrega aquí el mensaje de requerimiento para el teléfono -->
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Región</ion-label>
+    <ion-input type="text" [(ngModel)]="region"></ion-input>
+    <!-- Agrega aquí el mensaje de requerimiento para la región -->
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Dirección</ion-label>
+    <ion-input type="text" [(ngModel)]="direccion" maxlength="50"></ion-input>
+    <!-- Agrega aquí el mensaje de requerimiento para la dirección -->
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Contraseña</ion-label>
+    <ion-input type="password" [(ngModel)]="contrasena" minlength="8"></ion-input>
+    <!-- Agrega aquí el mensaje de requerimiento para la contraseña -->
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Repetir Contraseña</ion-label>
+    <ion-input type="password" [(ngModel)]="repetirContrasena" minlength="8"></ion-input>
+    <!-- Agrega aquí el mensaje de requerimiento para repetir la contraseña -->
+  </ion-item>
+
+  <ion-item>
+    <ion-button (click)="registrar()">Registrar</ion-button>  
+  </ion-item>
+  <ion-item>
+    <ion-button (click)="cancelar()">Cancelar</ion-button>
+  </ion-item>
+  
+</ion-content>

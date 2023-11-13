@@ -1,0 +1,21 @@
+{
+    "Chile": {
+      "Regiones": [
+        {
+          "Nombre": "Región de Antofagasta",
+          "Comunas": [
+            "Antofagasta",
+            "Mejillones",
+            "Sierra Gorda",
+            "Taltal",
+            "Calama",
+            "Ollagüe",
+            "San Pedro de Atacama",
+            "Tocopilla",
+            "María Elena"
+          ]
+        }
+      ]
+    }
+  }
+  

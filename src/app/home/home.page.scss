@@ -1,0 +1,23 @@
+/* home.page.scss */
+ion-button {
+  margin-top: 10px;
+  --border-radius: 8px; /* Ajusta el radio de borde según tu preferencia */
+  --background: #0d520f; /* Cambia el color de fondo según tu preferencia */
+  --color: #ffffff; /* Cambia el color del texto según tu preferencia */
+  --padding-end: 20px; /* Ajusta el padding a tu preferencia */
+  --padding-start: 20px; /* Ajusta el padding a tu preferencia */
+  --padding-top: 10px; /* Ajusta el padding a tu preferencia */
+  --padding-bottom: 10px; /* Ajusta el padding a tu preferencia */
+}
+
+ion-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+ion-item {
+  margin-bottom: 10px;
+}

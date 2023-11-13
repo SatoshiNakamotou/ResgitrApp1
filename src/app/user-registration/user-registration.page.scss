@@ -1,0 +1,15 @@
+/* Estilo para el botón de registro */
+ion-button {
+  --background: #4caf50; /* Color de fondo */
+  --color: #fff; /* Color del texto */
+  --border-radius: 8px; /* Radio de borde */
+  width: 100%; /* Ancho del botón al 100% del contenedor padre */
+  font-size: 16px; /* Tamaño de fuente */
+  padding: 12px; /* Relleno interno */
+  transition: background-color 0.3s ease; /* Transición del color de fondo */
+}
+
+/* Estilo para el efecto hover */
+ion-button:hover {
+  --background: #45a049; /* Cambia el color de fondo al hacer hover */
+}

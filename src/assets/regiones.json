@@ -1,0 +1,69 @@
+{
+    "archivos_regionales": [
+      {
+        "region": "Región de Arica y Parinacota",
+        "archivo_json": "arica_parinacota.json"
+      },
+      {
+        "region": "Región de Tarapacá",
+        "archivo_json": "tarapaca.json"
+      },
+      {
+        "region": "Región de Antofagasta",
+        "archivo_json": "antofagasta.json"
+      },
+      {
+        "region": "Región de Atacama",
+        "archivo_json": "atacama.json"
+      },
+      {
+        "region": "Región de Coquimbo",
+        "archivo_json": "coquimbo.json"
+      },
+      {
+        "region": "Región de Valparaíso",
+        "archivo_json": "valparaiso.json"
+      },
+      {
+        "region": "Región del Libertador General Bernardo O'Higgins",
+        "archivo_json": "ohiggins.json"
+      },
+      {
+        "region": "Región del Maule",
+        "archivo_json": "maule.json"
+      },
+      {
+        "region": "Región de Ñuble",
+        "archivo_json": "nuble.json"
+      },
+      {
+        "region": "Región del Biobío",
+        "archivo_json": "biobio.json"
+      },
+      {
+        "region": "Región de La Araucanía",
+        "archivo_json": "araucania.json"
+      },
+      {
+        "region": "Región de Los Ríos",
+        "archivo_json": "rios.json"
+      },
+      {
+        "region": "Región de Los Lagos",
+        "archivo_json": "lagos.json"
+      },
+      {
+        "region": "Región de Aysén del General Carlos Ibáñez del Campo",
+        "archivo_json": "aysen.json"
+      },
+      {
+        "region": "Región de Magallanes y de la Antártica Chilena",
+        "archivo_json": "magallanes.json"
+      },
+      {
+        "region": "Región Metropolitana de Santiago",
+        "archivo_json": "metropolitana.json"
+      }
+    ]
+  }
+  

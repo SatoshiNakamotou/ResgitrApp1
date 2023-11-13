@@ -1,0 +1,38 @@
+ion-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .welcome-container {
+    margin-bottom: 20px;
+  }
+  
+  .video-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    text-align: center;
+  }
+  
+  /* Estilos para el botón */
+  button {
+    background-color: #3498db; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 18px; /* Tamaño del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+  }
+  
+  /* Estilos cuando el ratón pasa por encima del botón */
+  button:hover {
+    background-color: #2980b9;
+  }
+  

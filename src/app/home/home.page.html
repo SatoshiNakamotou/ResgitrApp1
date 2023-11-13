@@ -1,0 +1,33 @@
+<!-- home.page.html -->
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Iniciar Sesión
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div class="ion-text-center">
+    <h1>RegistrApp</h1>
+  </div>
+
+  <!-- Formulario de inicio de sesión -->
+  <ion-item>
+    <ion-label position="floating">Nombre de Usuario</ion-label>
+    <ion-input [(ngModel)]="username" type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Contraseña</ion-label>
+    <ion-input [(ngModel)]="password" type="password"></ion-input>
+  </ion-item>
+
+  <ion-button expand="full" (click)="login(username, password)">Ingresar</ion-button>
+
+  <ion-button (click)="irARegistro()" expand="full" fill="clear">Registrar</ion-button>
+  
+  <ion-button (click)="irARecuperarContrasena()" expand="full" fill="clear">Recuperar Contraseña</ion-button>
+
+  <ion-button (click)="irloginAlternativo()" expand="full" fill="clear">login Alternativo</ion-button>
+</ion-content>

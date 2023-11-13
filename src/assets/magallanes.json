@@ -1,0 +1,18 @@
+{
+    "Chile": {
+      "Regiones": [
+        {
+          "Nombre": "Región de Magallanes y de la Antártica Chilena",
+          "Comunas": [
+            "Punta Arenas",
+            "Laguna Blanca",
+            "Río Verde",
+            "San Gregorio",
+            "Cabo de Hornos",
+            "Antártica"
+          ]
+        }
+      ]
+    }
+  }
+  

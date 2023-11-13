@@ -1,0 +1,53 @@
+{
+    "Chile": {
+      "Regiones": [
+        {
+          "Nombre": "Región Metropolitana de Santiago",
+          "Comunas": [
+            "Santiago",
+            "Cerrillos",
+            "Cerro Navia",
+            "Conchalí",
+            "El Bosque",
+            "Estación Central",
+            "Huechuraba",
+            "Independencia",
+            "La Cisterna",
+            "La Florida",
+            "La Granja",
+            "La Pintana",
+            "La Reina",
+            "Las Condes",
+            "Lo Barnechea",
+            "Lo Espejo",
+            "Lo Prado",
+            "Macul",
+            "Maipú",
+            "Ñuñoa",
+            "Padre Hurtado",
+            "Paine",
+            "Pedro Aguirre Cerda",
+            "Peñalolén",
+            "Pirque",
+            "Providencia",
+            "Pudahuel",
+            "Puente Alto",
+            "Quilicura",
+            "Quinta Normal",
+            "Recoleta",
+            "Renca",
+            "San Bernardo",
+            "San Joaquín",
+            "San José de Maipo",
+            "San Miguel",
+            "San Pedro",
+            "San Ramón",
+            "Talagante",
+            "Tiltil",
+            "Vitacura"
+          ]
+        }
+      ]
+    }
+  }
+  

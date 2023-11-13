@@ -1,0 +1,19 @@
+{
+    "Chile": {
+      "Regiones": [
+        {
+          "Nombre": "Región de Tarapacá",
+          "Comunas": [
+            "Iquique",
+            "Alto Hospicio",
+            "Pozo Almonte",
+            "Camiña",
+            "Colchane",
+            "Huara",
+            "Pica"
+          ]
+        }
+      ]
+    }
+  }
+  
